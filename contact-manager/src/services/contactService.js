@@ -1,16 +1,10 @@
 import axios from "axios";
 
-const API_URL = "https://my-json-server.typicode.com/codegym-vn/mock-api-contacts/contacts";
+const API_URL = "http://localhost:5000/contacts";
 
 // Lấy danh sách danh bạ
 export const getContacts = async () => {
   const response = await axios.get(API_URL);
-  return response.data;
-};
-
-// Lấy một danh bạ theo ID
-export const getContactById = async (id) => {
-  const response = await axios.get(`${API_URL}/${id}`);
   return response.data;
 };
 
@@ -31,14 +25,3 @@ export const deleteContact = async (id) => {
   const response = await axios.delete(`${API_URL}/${id}`);
   return response.data;
 };
-// upload ảnh
-export const uploadImage = async (file) => {
-    const formData = new FormData();
-    formData.append("file", file);
-  
-    const response = await axios.post("https://v2.convertapi.com/upload", formData, {
-      headers: { "Content-Type": "multipart/form-data" },
-    });
-  
-    return response.data; // Dữ liệu trả về có thể chứa URL của ảnh đã upload
-  };

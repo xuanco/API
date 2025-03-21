@@ -1,1 +1,24 @@
-{}
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "quantity": 5
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "quantity": 3
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "quantity": 7
+    },
+    {
+      "id": "88a3",
+      "title": "hoa hau",
+      "quantity": 1
+    }
+  ]
+}

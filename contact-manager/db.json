@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "email": "a@gmail.com",
+      "phone": "0123456789",
+      "image": "https://via.placeholder.com/100"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị B",
+      "email": "b@gmail.com",
+      "phone": "0987654321",
+      "image": "https://via.placeholder.com/100"
+    },
+    {
+      "id": "ccfd",
+      "image": "",
+      "name": "nguyen thi hai",
+      "email": "baba@gmail.com",
+      "phone": "0123456789"
+    }
+  ]
+}

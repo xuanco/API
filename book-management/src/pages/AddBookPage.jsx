@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "https://my-json-server.typicode.com/codegym-vn/mock-api-books/books";
+const API_URL = "http://localhost:3001/books";
 
 function AddBookPage() {
   const [title, setTitle] = useState("");
